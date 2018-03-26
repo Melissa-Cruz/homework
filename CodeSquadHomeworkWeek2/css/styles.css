@@ -113,3 +113,10 @@ div.productimg{
 #blacktext{
   color:black;
 }
+
+p, h5, a {
+  display: inline;
+  font-style: italic;
+  font-weight: bold;
+}
+
