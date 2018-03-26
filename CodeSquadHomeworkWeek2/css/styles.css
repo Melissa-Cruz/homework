@@ -1,0 +1,115 @@
+/*Logo and navigation bar specific to all pages */
+h1{
+  margin: 0 0;
+  background-color: #fc7b5d;
+}
+
+body{
+  font-family:sans-serif;
+}
+#logoimg{
+  width: 40%;
+}
+
+ nav{
+  position: fixed;
+  bottom: 90%; right: 4px;
+  font-size:12pt;
+}
+ ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+
+}
+
+ li{
+  float: right;
+}
+
+ a{
+  text-decoration: none;
+  display: block;
+  padding:8px;
+  font-family: sans-serif;
+  color: white;
+}
+
+/*ID specific to main page  */
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+#mainimg{
+height: 40%;
+width:40%;
+}
+
+#tourlink{
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20pt;
+  background-color: white;
+  border-color: white;
+}
+
+#storelink{
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20pt;
+  background-color: white;
+}
+
+p{
+  font-family:sans-serif;
+}
+
+/*Second Navigation Bar  */
+.navproducts{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+  background-color:teal;
+  overflow: hidden;
+}
+
+li.navproducts a{
+	display: block;
+	background-color:teal;
+	padding: 10pt 20pt;
+	text-decoration: none;
+}
+
+li.navproducts {
+	float:left;
+}
+
+li.navproducts a:hover{
+	background-color: #ddd;
+}
+
+/*Product image information */
+productimg{
+  float: left;
+  width: 20%;
+  height:20%;
+
+}
+
+div.productimg{
+  text-align:left;
+  width: 70%
+
+}
+
+#blacktext{
+  color:black;
+}
